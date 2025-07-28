@@ -66,6 +66,8 @@ Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codic
 
 ### risposta:
 
+sono stati creati 3 oggetti hamburger differenti ognuno dei quali ha a sua volta 2 oggetti all'interno(3 nel caso degli hamburger,9 nel caso di oggetti totali)
+
 ## 🏆 Code Question 4
 
 ```javascript

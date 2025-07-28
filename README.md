@@ -92,7 +92,13 @@ const restaurant = {
 
 Qual è il metodo migliore per clonare l’oggetto chef, e perché?
 Qual è il metodo migliore per clonare l’oggetto restaurant, e perché?
-🎯 Code Question 5 (Bonus)
+
+### risposta:
+
+il metodo migliore per clonare chef è usare lo `spread operator`, perchè l'oggetto in questione non ha elementi annidati e a differenza di una deep copy, lo spread operator permette di copiare anche le funzioni(anche se copia il riferimento).
+per restaurant invece il metodo migliore è `structuredClone()`, permettendo di copiare oggetti annidati e complessi come `Date`
+
+## 🎯 Code Question 5 (Bonus)
 
 ```javascript
 const hamburger = {

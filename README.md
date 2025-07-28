@@ -169,7 +169,13 @@ const chef = {
 ```
 
 Qual è il metodo migliore per clonare l’oggetto chef, e perché?
-🎯 Snack (Bonus)
+
+### risposta:
+
+volendo mantenere le funzioni annidate non è consigliabile utilizzare `structuredClone()`, nonostante permetta la copia di oggetti annidasti e complessi. In questo caso(tra i metodi appresi) è consigliabile utilizzare lo spred operator che, nonostante creerà copie con riferimenti, permette almeno di mantenere una copia(sempre per riferimento) delle funzioni.
+
+## 🎯 Snack (Bonus)
+
 Crea una funzione che permette la copia profonda (deep copy) di un oggetto, che copia anche i suoi metodi (proprietà che contengono funzioni). Usa l’oggetto di Code Question 6 come test.
 
 ⚠️ Serve usare una funzione ricorsiva! (fai un po’ di ricerca).

@@ -130,7 +130,19 @@ console.log(secondBurger.maker.restaurant.name); // ?
 
 Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
 Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
-🎯 Code Question 6 (Bonus)
+
+### risposta:
+
+sono stati creati in memoria 3 oggetti, il primo è hamburger e il secondo è newRestaurant(avendo copiato solo un oggetto con proprietà primitive di hamburger) e il terzo è secondHamburger(che però al suo interno ha proprietà copiate per riferimento)
+
+```javascript
+console.log(hamburger.maker.name); // Chef Hyur
+console.log(secondBurger.maker.name); // Chef Hyur
+console.log(hamburger.maker.restaurant.name); // Hyur's II
+console.log(secondBurger.maker.restaurant.name); // Hyur's II
+```
+
+## 🎯 Code Question 6 (Bonus)
 
 ```javascript
 const chef = {

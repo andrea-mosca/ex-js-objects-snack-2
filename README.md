@@ -37,6 +37,10 @@ P.S.: Ricordati che gli Array, come gli oggetti, sono dei Reference Type (Tipi d
 Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
 Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
 
+### risposta:
+
+in entrambi i casi viene stampato `Salad` come primo elemento dell'array ingredients, questo perchè la shallow copia crea effettivamente due oggetti diversi, ma essendo ingredients una proprietà annidata, di quest'ultima verrà copiato il riferimento
+
 ## 🏆 Code Question 3
 
 ```javascript
@@ -59,6 +63,8 @@ const thirdBurger = structuredClone(hamburger);
 ```
 
 Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
+
+### risposta:
 
 ## 🏆 Code Question 4
 

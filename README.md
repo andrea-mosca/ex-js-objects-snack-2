@@ -13,6 +13,10 @@ console.log(secondBurger.name ); // ?
 Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
 Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
 
+### risposta:
+
+in console viene stampato `Double Cheese Burger` sul nome e 500 sul peso. Questo perchè è stato creato in memoria un solo oggetto
+
 ## 🏆 Code Question 2
 
 ```javascript
